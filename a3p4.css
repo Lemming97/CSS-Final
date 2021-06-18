@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* A3P5 Stylesheet Sample */
+
+header,
+nav,
+section,
+footer,
+article {
+    /* leave this alone */
+    display: block;
+}
+
+/*header */
+div#page {
+    border: solid 10px #392B40;
+    background-color: #544C73;
+    padding: 10px;
+}
+
+div#content {
+    border: solid 10px #BF8275;
+}
+
+div#masthead {
+    padding: 0 20px 30px 20px;
+}
+
+body {
+    /* change background, color, and font  */
+    background: #392B40;
+    color: #330066;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#pagewrap {
+    /* change background, adjust width as needed */
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F29D52;
+}
+
+header {
+    /* change background, color, whatever else you want */
+    background: #544C73;
+    color: #BF8275;
+    margin: 0;
+    padding: 2em 2em;
+}
+
+#main {
+    /* change background, whatever else you want   */
+    width: 700px;
+    float: left;
+    background: #FFFFE8;
+    padding: 0em;
+}
+
+#main > * {
+    /* adjust as needed  */
+    margin-left: 2em;
+}
+
+h1 {
+    /* adjust as needed  */
+    margin: 0;
+    text-align: left;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    /* change fonts to fit your theme  */
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 0;
+}
+
+p {
+    /* adjust as needed  */
+    margin-top: 5px;
+}
+
+nav {
+    /* change background, adjust width, padding as needed  */
+    width: 200px;
+    float: left;
+    padding-top: .5em;
+    border: solid 4px #392B40;
+    border-left-width: 3px;
+    background-color: #F28B50;
+    margin-left: -1px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* this turns off bullets on navigation list   */
+    line-height: 1.4;
+    /* adjust as needed for link spacing */
+    padding-left: 0;
+}
+
+nav li {
+    /* change background, adjust others as needed  */
+    margin-top: .5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 95%;
+    background: #F28B50;
+    text-align: center;
+    list-style: none;
+    background-image: url(hat.png);
+    background-repeat: no-repeat;
+    background-size: 14px 16px;
+    background-position: 30px;
+    line-height: 2.4;
+
+}
+
+/* hover */
+nav li a:hover {
+    font: bold 2em/normal;
+    padding: 0;
+    border-top: 3px lightyellow solid;
+    border-bottom: 3px lightyellow solid;
+    border-left: 3px lightyellow solid;
+    box-shadow: 3px 2px 5px lightyellow;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: purple;
+}
+
+a:visited {
+    color: #392B40;
+}
+
+a:hover {
+    color: #851d30;
+    font-size: 120%;
+}
+
+a:active {
+    color: #035373;
+
+}
+
+/*nav */
+nav a {
+    text-decoration: none;
+    /* turns off underlining on links within nav bar  */
+}
+
+article {
+    /* adjust as needed to separate one article from next */
+    margin: 1em;
+}
+
+article li {
+    list-style: none;
+    background-image: url(coffee.png);
+    background-repeat: no-repeat;
+    background-size: 14px 16px;
+    background-position: 0 4px;
+    line-height: 1.4;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+
+}
+
+#hotelfig {
+    /* add borders and margin to your hotel image here  */
+    float: right;
+    border: 8px inset #F29D52;
+    background-color: #544C73;
+    padding: 8px;
+    margin-left: 25px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, .5);
+}
+
+figcaption {
+    font-family: 'Sansita Swashed', cursive;
+    font: bold 1em/normal;
+    font-size: 100%;
+    text-align: center;
+}
+
+img {
+    opacity: 1.0;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+/* closing style */
+
+footer {
+    /* adjust as needed  */
+    margin-top: 2em;
+    text-align: center;
+    font-size: 90%;
+    clear: left;
+}
